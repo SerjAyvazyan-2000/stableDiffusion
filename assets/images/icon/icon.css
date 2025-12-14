@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.icon {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+.icon-stars {
+  mask-image: url(stars.svg);
+  -webkit-mask-image: url(stars.svg);
+}
+.icon-jPlus {
+  mask-image: url(jPlus.svg);
+  -webkit-mask-image: url(jPlus.svg);
+}
+
+.icon-JArrowDown {
+  mask-image: url(JArrowDown.svg);
+  -webkit-mask-image: url(JArrowDown.svg);
+}
+.icon-jClose{
+    mask-image: url(jClose.svg);
+  -webkit-mask-image: url(jClose.svg);
+}
+.icon-jLock{
+    mask-image: url(jLock.svg);
+  -webkit-mask-image: url(jLock.svg);
+}
+.icon-jMinus{
+    mask-image: url(jMinus.svg);
+  -webkit-mask-image: url(jMinus.svg);
+}
